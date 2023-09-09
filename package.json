@@ -1,0 +1,53 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "App inventario",
+  "productName": "APP_IPS",
+  "author": "Jorge Villamizar Ochoa <ejorgevilla8a@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "autoprefixer": "^9.8.6",
+    "core-js": "^3.6.5",
+    "postcss": "^7.0.36",
+    "quasar": "^1.0.0",
+    "sweetalert2": "^11.4.8",
+    "vue-html2pdf": "^1.8.0",
+    "vue-qrcode-component": "^2.1.1",
+    "vue-qrcode-reader": "^3.1.0",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^7.21.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-vue": "^7.7.0",
+    "eslint-webpack-plugin": "^2.4.0"
+  },
+  "browserslist": [
+    "ie >= 11",
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
