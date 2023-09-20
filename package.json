@@ -2,8 +2,8 @@
   "name": "app",
   "version": "0.0.1",
   "description": "App inventario",
-  "productName": "APP_IPS",
-  "author": "Jorge Villamizar Ochoa <ejorgevilla8a@gmail.com>",
+  "productName": "APP_INVENTARIO",
+  "author": "Daniel Ortiz Espitia <danielortizespitia8@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "quasar dev",
